@@ -6,17 +6,9 @@ I'm a passionate backend developer with expertise in building structured and sca
 
 ## 🛠️ Tech Stack
 
-**Backend:**
-- Node.js | Express.js
-- PostgreSQL | Sequelize ORM
-- MongoDB | Mongoose
-- REST API | JWT Authentication
-
-**Tools & Practices:**
-- Git | Swagger/OpenAPI
-- Render | Neon.tech
-- Data Validation | Error Handling
-- Clean Architecture | API Documentation
+**Backend:** Node.js | Express.js | PostgreSQL | Sequelize ORM | MongoDB | REST API | JWT  
+**Tools:** Git | Swagger/OpenAPI | Render | Neon.tech  
+**Practices:** Data Validation | Error Handling | Clean Architecture | API Documentation
 
 ## 🚀 Featured Project
 
@@ -26,34 +18,31 @@ A full-featured backend application for tracking job applications and recruiters
 
 **Key Features:**
 - Polymorphic status history system
-- Multi-layer validation architecture
+- Multi-layer validation architecture  
 - Analytics and progress metrics
 - REST API with Swagger documentation
 - JWT authentication & security
 
 **Live Demo:** [https://jobsearch-xsjk.onrender.com/api-docs](https://jobsearch-xsjk.onrender.com/api-docs)
 
-## 📊 GitHub Stats
+## 📊 GitHub & Code Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GruantR&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
-</p>
-
-## 💻 Codewars
-
-[![Codewars](https://www.codewars.com/users/GruantRus/badges/large)](https://www.codewars.com/users/GruantRus)
+| GitHub Activity | Codewars |
+|-----------------|----------|
+| **Public Repos:** 10+ | [![Codewars](https://www.codewars.com/users/GruantRus/badges/small)](https://www.codewars.com/users/GruantRus) |
+| **Main Project:** JobSearch App | **Rank:** 7 kyu |
+| **Latest Deployment:** Live API | **Honor:** 100+ |
 
 ## 📫 Let's Connect
 
-- **LinkedIn:** [www.linkedin.com/in/ruslan-trafimovich-6a16b839a](https://www.linkedin.com/in/ruslan-trafimovich-6a16b839a)
-- **Email:** rusworv@gmail.com
+- **LinkedIn:** [Ruslan Trafimovich](https://www.linkedin.com/in/ruslan-trafimovich-6a16b839a)
+- **Email:** rusworv@gmail.com  
 - **GitHub:** [github.com/GruantR](https://github.com/GruantR)
 
 ## 🎯 Currently Learning
 
 - Advanced Node.js patterns
-- System design principles
+- System design principles  
 - Performance optimization
 - Testing strategies (Jest, Supertest)
 
