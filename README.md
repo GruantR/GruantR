@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Ivan!
+# 👋 Hello, I'm Ruslan!
 
 **Backend Developer | Node.js | PostgreSQL | REST API**
 
@@ -40,8 +40,8 @@ A full-featured backend application for tracking job applications and recruiters
 
 ## 📫 Let's Connect
 
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [your.email@example.com]
+- **LinkedIn:** (www.linkedin.com/in/ruslan-trafimovich-6a16b839a)
+- **Email:** [rusworv@gmail.com]
 - **Portfolio:** [Your portfolio link if available]
 
 ## 🎯 Currently Learning
