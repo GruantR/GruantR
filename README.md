@@ -35,8 +35,10 @@ A full-featured backend application for tracking job applications and recruiters
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=GruantR&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=GruantR&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
+</p>
 
 ## 📫 Let's Connect
 
