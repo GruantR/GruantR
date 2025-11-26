@@ -40,11 +40,15 @@ A full-featured backend application for tracking job applications and recruiters
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
 </p>
 
+## 💻 Codewars
+
+[![Codewars](https://www.codewars.com/users/GruantRus/badges/large)](https://www.codewars.com/users/GruantRus)
+
 ## 📫 Let's Connect
 
-- **LinkedIn:** (www.linkedin.com/in/ruslan-trafimovich-6a16b839a)
-- **Email:** [rusworv@gmail.com]
-- **Portfolio:** [Your portfolio link if available]
+- **LinkedIn:** [www.linkedin.com/in/ruslan-trafimovich-6a16b839a](https://www.linkedin.com/in/ruslan-trafimovich-6a16b839a)
+- **Email:** rusworv@gmail.com
+- **GitHub:** [github.com/GruantR](https://github.com/GruantR)
 
 ## 🎯 Currently Learning
 
