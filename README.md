@@ -31,10 +31,12 @@ A full-featured backend application for tracking job applications and recruiters
 
 [![Codewars](https://www.codewars.com/users/GruantRus/badges/large)](https://www.codewars.com/users/GruantRus)
 
-### 📈 GitHub Activity
-- **Public Repositories:** 10+
-- **Main Project:** [JobSearch App](https://github.com/GruantR/JobSearch)
-- **Latest Deployment:** [Live API Docs](https://jobsearch-xsjk.onrender.com/api-docs)
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=GruantR&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
+</p>
 
 ## 📫 Let's Connect
 
