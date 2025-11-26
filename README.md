@@ -25,13 +25,16 @@ A full-featured backend application for tracking job applications and recruiters
 
 **Live Demo:** [https://jobsearch-xsjk.onrender.com/api-docs](https://jobsearch-xsjk.onrender.com/api-docs)
 
-## 📊 GitHub & Code Stats
+## 📊 Development Activity
 
-| GitHub Activity | Codewars |
-|-----------------|----------|
-| **Public Repos:** 10+ | [![Codewars](https://www.codewars.com/users/GruantRus/badges/small)](https://www.codewars.com/users/GruantRus) |
-| **Main Project:** JobSearch App | **Rank:** 7 kyu |
-| **Latest Deployment:** Live API | **Honor:** 100+ |
+### 💻 Codewars Progress
+
+[![Codewars](https://www.codewars.com/users/GruantRus/badges/large)](https://www.codewars.com/users/GruantRus)
+
+### 📈 GitHub Activity
+- **Public Repositories:** 10+
+- **Main Project:** [JobSearch App](https://github.com/GruantR/JobSearch)
+- **Latest Deployment:** [Live API Docs](https://jobsearch-xsjk.onrender.com/api-docs)
 
 ## 📫 Let's Connect
 
