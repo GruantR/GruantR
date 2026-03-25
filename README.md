@@ -1,56 +1,76 @@
-# 👋 Hello, I'm Ruslan!
+# 👋 Hi, I'm Ruslan Trafimovich
 
 **Backend Developer | Node.js | PostgreSQL | REST API**
 
-I'm a passionate backend developer with expertise in building structured and scalable web applications. Currently focused on Node.js ecosystem and modern backend technologies.
+I build **scalable and secure backend systems** with a focus on clean architecture and real-world production practices.
 
-## 🛠️ Tech Stack
-
-**Backend:** Node.js | Express.js | PostgreSQL | Sequelize ORM | MongoDB | REST API | JWT  
-**Tools:** Git | Swagger/OpenAPI | Render | Neon.tech  
-**Practices:** Data Validation | Error Handling | Clean Architecture | API Documentation
+---
 
 ## 🚀 Featured Project
 
-### [JobSearch App](https://github.com/GruantR/JobSearch) - Personal CRM for Job Seekers
+### 📦 [File Storage Service](https://github.com/GruantR/file-storage-service)
 
-A full-featured backend application for tracking job applications and recruiters.
+Production-ready backend API for uploading, storing, and managing files with support for **local storage and S3-compatible cloud (MinIO)**.
 
 **Key Features:**
-- Polymorphic status history system
-- Multi-layer validation architecture  
-- Analytics and progress metrics
-- REST API with Swagger documentation
-- JWT authentication & security
+- JWT authentication with refresh token rotation  
+- Secure HttpOnly cookie-based sessions  
+- Storage abstraction (local + S3)  
+- File validation and user-based ownership  
+- Pagination & structured error handling  
+- Dockerized environment  
 
-**Live Demo:** [https://jobsearch-xsjk.onrender.com/api-docs](https://jobsearch-xsjk.onrender.com/api-docs)
+---
+
+## 🛠️ Tech Stack
+
+**Backend:** Node.js | Express.js  
+**Database:** PostgreSQL | Sequelize ORM  
+**Auth & Security:** JWT | bcrypt | cookies  
+**Storage:** MinIO (S3) | local filesystem  
+**Tools:** Docker | Redis | Git | Swagger/OpenAPI  
+**Practices:** Clean Architecture | Validation | Error Handling  
+
+---
+
+## 💡 What I Focus On
+
+- Backend architecture and scalability  
+- Secure authentication and authorization  
+- Storage and cloud integrations  
+- Writing clean, maintainable code  
+
+---
+
+## 📈 Currently Improving
+
+- Unit & integration testing (Jest, Supertest)  
+- API documentation (Swagger / OpenAPI)  
+- Logging and monitoring  
+
+---
 
 ## 📊 Development Activity
 
-### 💻 Codewars Progress
+### 💻 Codewars
 
 [![Codewars](https://www.codewars.com/users/GruantRus/badges/large)](https://www.codewars.com/users/GruantRus)
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GruantR&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GruantR&show_icons=true&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GruantR&layout=compact&hide_border=true" />
 </p>
-
-## 📫 Let's Connect
-
-- **LinkedIn:** [Ruslan Trafimovich](https://www.linkedin.com/in/ruslan-trafimovich-6a16b839a)
-- **Email:** rusworv@gmail.com  
-- **GitHub:** [github.com/GruantR](https://github.com/GruantR)
-
-## 🎯 Currently Learning
-
-- Advanced Node.js patterns
-- System design principles  
-- Performance optimization
-- Testing strategies (Jest, Supertest)
 
 ---
 
-⭐ *"From curiosity about how websites work to building robust backend systems"*
+## 📫 Contact
+
+- LinkedIn: https://www.linkedin.com/in/ruslan-trafimovich-6a16b839a  
+- Email: rusworv@gmail.com  
+- GitHub: https://github.com/GruantR  
+
+---
+
+⭐ *Building backend systems that are not just working — but scalable and production-ready.*
