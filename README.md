@@ -2,11 +2,11 @@
 
 **Backend · Node.js · PostgreSQL · MongoDB**
 
-Backend developer (**junior+ / early mid-level**) — **Node.js**, **Express**, **REST** APIs. Main depth: **PostgreSQL** + **Sequelize** (migrations, transactions); **MongoDB** from earlier projects. Also: **JWT**, **Redis**, **Docker**, **Jest/Supertest**, **Swagger**, file uploads with **local + S3-compatible** storage.
+Backend developer (**junior+ / early mid-level**) — **Node.js**, **Express**, **REST** APIs. Main depth: **PostgreSQL** + **Sequelize** (migrations, transactions); **MongoDB** from earlier projects. Also: **JWT**, **Redis**, **Docker**, **Jest/Supertest**, **Swagger**, file uploads with **local + S3-compatible** storage. Second line of work: a **job-search tracker** API (vacancies, recruiters, analytics) plus an optional **Telegram** bot.
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Projects
 
 ### 📦 [File Storage Service](https://github.com/GruantR/file-storage-service)
 
@@ -24,6 +24,17 @@ Production-ready backend API for uploading, storing, and managing files with sup
 
 UI note: the demo front-end was built with AI assistance; the backend implementation was done independently.
 
+### 📋 [JobSearch](https://github.com/GruantR/JobSearch)
+
+Backend for tracking a personal job search: **vacancies**, **recruiters**, **profiles**, and **status history** in PostgreSQL (Sequelize + migrations).
+
+- **REST API** (Express 5): auth (`JWT` + bcrypt), CRUD-style flows for users, recruiters, vacancies  
+- **Analytics:** recruiter pipeline stats + **recruitment funnel** (response/success-style rates) and vacancy breakdowns  
+- **Validation:** `express-validator` on routes; **layered errors** (validation / Sequelize / global)  
+- **Docs:** Swagger UI (`/api-docs`) via `swagger-jsdoc`  
+- **Telegram:** `node-telegram-bot-api` — dev **polling**, production **webhook-ready**, gated by env (`ENABLE_BOT`)  
+- **Tests:** Jest unit tests (e.g. vacancies, recruiters, status history)
+
 ---
 
 ## 🛠️ Tech Stack
@@ -34,7 +45,8 @@ UI note: the demo front-end was built with AI assistance; the backend implementa
 **Auth & security:** JWT (access + refresh) | bcrypt | HttpOnly cookies | RBAC-ready roles  
 **Infra & data:** Redis · Docker / Compose · local + S3-compatible storage (MinIO)  
 **Quality:** Jest + Supertest | Swagger/OpenAPI | GitHub Actions  
-**How I work:** validation, centralized errors, clear layers (routes → services → storage)
+**Integrations:** Telegram Bot API (JobSearch: bot + REST backend)  
+**How I work:** validation, centralized errors, clear layers (routes → services → storage / domain logic)
 
 ---
 
