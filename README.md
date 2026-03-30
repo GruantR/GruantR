@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Ruslan Trafimovich
 
-**Backend Developer** — Node.js · Express · PostgreSQL · REST APIs · Docker
+**Backend · Node.js · PostgreSQL · MongoDB**
 
-I ship **REST backends** with layered architecture: **PostgreSQL + Sequelize** (migrations, seeds, transactions), **JWT** (access/refresh, HttpOnly cookies) with **Redis** for caching, rate limiting, and token flows, and **object storage** (local + **S3-compatible MinIO**). I pair that with **Jest + Supertest**, **Swagger/OpenAPI**, **GitHub Actions** CI, and production-minded practices: validation, RBAC-ready roles, centralized errors, and Docker-first deployment.
+Backend developer (**junior+ / early mid-level**) — **Node.js**, **Express**, **REST** APIs. Main depth: **PostgreSQL** + **Sequelize** (migrations, transactions); **MongoDB** from earlier projects. Also: **JWT**, **Redis**, **Docker**, **Jest/Supertest**, **Swagger**, file uploads with **local + S3-compatible** storage.
 
 ---
 
@@ -28,35 +28,34 @@ UI note: the demo front-end was built with AI assistance; the backend implementa
 
 ## 🛠️ Tech Stack
 
-**Runtime & API:** Node.js | Express.js | REST  
-**Data:** PostgreSQL | Sequelize ORM (migrations, seeds, transactions)  
+**Core:** Node.js | Express | REST  
+**SQL:** PostgreSQL | Sequelize (migrations, seeds, transactions)  
+**NoSQL:** MongoDB (worked with in past projects)  
 **Auth & security:** JWT (access + refresh) | bcrypt | HttpOnly cookies | RBAC-ready roles  
-**Caching & limits:** Redis (cache, rate limiting, refresh-token flow)  
-**Storage:** Local + S3-compatible (MinIO) via `StorageInterface`  
-**Quality & ops:** Jest + Supertest | Swagger/OpenAPI | Docker / Compose | GitHub Actions  
-**Practices:** Validation | Centralized error handling | layered modules (routes → services → storage)  
+**Infra & data:** Redis · Docker / Compose · local + S3-compatible storage (MinIO)  
+**Quality:** Jest + Supertest | Swagger/OpenAPI | GitHub Actions  
+**How I work:** validation, centralized errors, clear layers (routes → services → storage)
 
 ---
 
-## 💡 What I Focus On
+## 💡 Focus
 
-- Backend architecture and scalability  
-- Secure authentication and authorization  
-- Storage and cloud integrations  
-- Clean, testable code aligned with how the system runs in production  
+- Reliable APIs and clear module boundaries  
+- Security basics: auth, roles, safe uploads  
+- Tests and docs that match real behavior  
 
 ---
 
 ## 📍 Current focus
 
-- **Upload hardening:** integrating **file signature (magic-byte) checks** with **Multer** so uploads match real content—not only declared extension or `Content-Type`—reducing **extension spoofing** and **MIME spoofing** risk.
+- **Upload pipeline:** **magic-byte / file-signature checks** with **Multer** so files match real content (not only extension or `Content-Type`).
 
 ---
 
-## 📈 Roadmap
+## 📈 Next steps
 
-- **Observability:** structured logging and monitoring in real deployments  
-- **Stack evolution:** deepening **TypeScript** and **Nest.js** with the goal of **rewriting the file-storage project** on that stack for clearer modules, typing, and maintainability at scale  
+- Better **logging & monitoring** in production-like setups  
+- Learn **TypeScript** + **Nest.js** and **migrate the file-storage project** when it fits the learning path  
 
 ---
 
@@ -83,4 +82,4 @@ UI note: the demo front-end was built with AI assistance; the backend implementa
 
 ---
 
-⭐ *Building backend systems that are not just working — but scalable and production-ready.*
+⭐ *Backend that is clear to read, test, and ship.*
