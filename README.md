@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Ruslan Trafimovich
 
-**Backend Developer | Node.js | PostgreSQL | REST API**
+**Backend Developer** — Node.js · Express · PostgreSQL · REST APIs · Docker
 
-I build **scalable and secure backend systems** with a focus on clean architecture and real-world production practices.
+I ship **REST backends** with layered architecture: **PostgreSQL + Sequelize** (migrations, seeds, transactions), **JWT** (access/refresh, HttpOnly cookies) with **Redis** for caching, rate limiting, and token flows, and **object storage** (local + **S3-compatible MinIO**). I pair that with **Jest + Supertest**, **Swagger/OpenAPI**, **GitHub Actions** CI, and production-minded practices: validation, RBAC-ready roles, centralized errors, and Docker-first deployment.
 
 ---
 
@@ -28,12 +28,13 @@ UI note: the demo front-end was built with AI assistance; the backend implementa
 
 ## 🛠️ Tech Stack
 
-**Backend:** Node.js | Express.js  
-**Database:** PostgreSQL | Sequelize ORM (migrations/seed + transactions)  
-**Auth & Security:** JWT (access + refresh) | bcrypt | HttpOnly cookies | RBAC-ready roles  
-**Storage:** LocalStorage + S3Storage (MinIO) | StorageInterface  
-**Tools:** Docker / docker-compose | Redis | Jest + Supertest | Swagger/OpenAPI | GitHub Actions  
-**Practices:** Validation | Centralized error handling | Caching & rate limiting  
+**Runtime & API:** Node.js | Express.js | REST  
+**Data:** PostgreSQL | Sequelize ORM (migrations, seeds, transactions)  
+**Auth & security:** JWT (access + refresh) | bcrypt | HttpOnly cookies | RBAC-ready roles  
+**Caching & limits:** Redis (cache, rate limiting, refresh-token flow)  
+**Storage:** Local + S3-compatible (MinIO) via `StorageInterface`  
+**Quality & ops:** Jest + Supertest | Swagger/OpenAPI | Docker / Compose | GitHub Actions  
+**Practices:** Validation | Centralized error handling | layered modules (routes → services → storage)  
 
 ---
 
@@ -42,15 +43,20 @@ UI note: the demo front-end was built with AI assistance; the backend implementa
 - Backend architecture and scalability  
 - Secure authentication and authorization  
 - Storage and cloud integrations  
-- Writing clean, maintainable code  
+- Clean, testable code aligned with how the system runs in production  
 
 ---
 
-## 📈 Currently Improving
+## 📍 Current focus
 
-- Unit & integration testing (Jest, Supertest)  
-- API documentation (Swagger / OpenAPI)  
-- Logging and monitoring  
+- **Upload hardening:** integrating **file signature (magic-byte) checks** with **Multer** so uploads match real content—not only declared extension or `Content-Type`—reducing **extension spoofing** and **MIME spoofing** risk.
+
+---
+
+## 📈 Roadmap
+
+- **Observability:** structured logging and monitoring in real deployments  
+- **Stack evolution:** deepening **TypeScript** and **Nest.js** with the goal of **rewriting the file-storage project** on that stack for clearer modules, typing, and maintainability at scale  
 
 ---
 
