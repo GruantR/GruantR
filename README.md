@@ -13,23 +13,27 @@ I build **scalable and secure backend systems** with a focus on clean architectu
 Production-ready backend API for uploading, storing, and managing files with support for **local storage and S3-compatible cloud (MinIO)**.
 
 **Key Features:**
-- JWT authentication with refresh token rotation  
-- Secure HttpOnly cookie-based sessions  
-- Storage abstraction (local + S3)  
-- File validation and user-based ownership  
-- Pagination & structured error handling  
-- Dockerized environment  
+- Pluggable storage drivers via `StorageInterface` (`LocalStorage` + `S3Storage`)
+- Storage selection per upload (`storage=local|s3`) with correct read/delete routing via DB `storageType`
+- JWT auth with refresh token rotation stored in PostgreSQL and mirrored in Redis (HttpOnly cookies)
+- Secure uploads: Multer validation (types + size limits) and RBAC-ready user/admin roles
+- Sequelize migrations + seed and transaction-safe deletion with cleanup logs
+- Redis rate limiting + caching for list endpoints
+- Swagger/OpenAPI docs and connectivity-first `/api/health`
+- Docker-first setup + GitHub Actions smoke test
+
+UI note: the demo front-end was built with AI assistance; the backend implementation was done independently.
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Backend:** Node.js | Express.js  
-**Database:** PostgreSQL | Sequelize ORM  
-**Auth & Security:** JWT | bcrypt | cookies  
-**Storage:** MinIO (S3) | local filesystem  
-**Tools:** Docker | Redis | Git | Swagger/OpenAPI  
-**Practices:** Clean Architecture | Validation | Error Handling  
+**Database:** PostgreSQL | Sequelize ORM (migrations/seed + transactions)  
+**Auth & Security:** JWT (access + refresh) | bcrypt | HttpOnly cookies | RBAC-ready roles  
+**Storage:** LocalStorage + S3Storage (MinIO) | StorageInterface  
+**Tools:** Docker / docker-compose | Redis | Jest + Supertest | Swagger/OpenAPI | GitHub Actions  
+**Practices:** Validation | Centralized error handling | Caching & rate limiting  
 
 ---
 
